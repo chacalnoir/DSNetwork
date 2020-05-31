@@ -1,0 +1,5 @@
+This is an implementation of a Dempster-Shafer network with extensions for learning/updating the joint conditional belief matrices based on evidence observations at the nodes.
+
+network/DSNetwork.py contains the primary Dempster-Shafer network code.
+network/NetworkGenerator.py contains several test network to demonstrate how to create and use the code as well as test the functionality.
+metrics contains both metrics analysis tools and plotting tools designed to facilitate understanding of the data contained within the network as well as the decisions that the network makes.
